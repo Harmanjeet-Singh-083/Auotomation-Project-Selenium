@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-27T19:13:45Z" name="Default suite" finished-at="2021-05-27T19:13:51Z" duration-ms="6128">
+    <groups>
+    </groups>
+    <test started-at="2021-05-27T19:13:45Z" name="Default test" finished-at="2021-05-27T19:13:51Z" duration-ms="6128">
+      <class name="Capstone.Home_Page">
+        <test-method is-config="true" signature="setProperties()" started-at="2021-05-27T19:13:45Z" name="setProperties" finished-at="2021-05-27T19:13:45Z" duration-ms="15" status="PASS">
+        </test-method>
+        <test-method signature="verifyTitileHomePage()" started-at="2021-05-27T19:13:45Z" name="verifyTitileHomePage" finished-at="2021-05-27T19:13:51Z" duration-ms="5832" status="PASS">
+        </test-method>
+        <test-method signature="verifyURLHomePage()" started-at="2021-05-27T19:13:51Z" name="verifyURLHomePage" finished-at="2021-05-27T19:13:51Z" duration-ms="15" status="PASS">
+        </test-method>
+        <test-method signature="verifyLogoHomePage()" started-at="2021-05-27T19:13:51Z" name="verifyLogoHomePage" finished-at="2021-05-27T19:13:51Z" duration-ms="226" status="PASS">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
