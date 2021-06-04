@@ -3,10 +3,10 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)" preserve-order="false">
     <classes>
-      <class name="Capstone.Home_Page">
+      <class name="Capstone.Login_Home_Page">
         <methods>
-          <include name="setProperties"/>
-          <include name="verifyLogoHomePage"/>
+          <include name="VerifyVisitTagHomePageName"/>
+          <include name="after_suite"/>
         </methods>
       </class>
     </classes>
