@@ -11,12 +11,13 @@ import java.io.InputStream;
 import java.util.Properties;
 
 public class ReadPropertyFile {
-static Properties properties;
+
+	static Properties properties;
 	
 	public static void loadData() throws Exception
 	{
 		properties = new Properties();
-		File f= new File("C:\\Users\\dell1\\eclipse-workspace\\Capstone\\src\\test\\java\\data.properties");
+		File f= new File("G:\\Capstone Repository\\Capstone\\src\\test\\java\\config.properties");
 			FileReader obj = new FileReader(f);
 		properties.load(obj);
 	}
