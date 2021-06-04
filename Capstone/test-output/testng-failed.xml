@@ -5,7 +5,11 @@
     <classes>
       <class name="Capstone.Login_Home_Page">
         <methods>
+          <include name="Login"/>
+          <include name="HomePageDropDownsCount"/>
+          <include name="HomePageVerifyLogo"/>
           <include name="VerifyVisitTagHomePageName"/>
+          <include name="VerifyVisitTagHomePagePresence"/>
           <include name="after_suite"/>
         </methods>
       </class>
