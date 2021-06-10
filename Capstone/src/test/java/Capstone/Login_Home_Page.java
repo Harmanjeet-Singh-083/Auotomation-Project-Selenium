@@ -1,7 +1,8 @@
 package Capstone;
 
-import java.awt.List;
+import java.util.List;
 import java.util.ArrayList;
+import java.util.stream.Collectors;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -52,17 +53,16 @@ public class Login_Home_Page extends Login_Home{
 	
 	@Test(priority = 5)
 	public void HomePageDropDownsName() throws Exception {
-		// Printing Name of Each Drop Down Menus 
+		// Getting Name of Each Drop Down Menus 
 		
 		ArrayList<WebElement> dropDowns = new ArrayList<>(driver.findElements(dropDownsHomePage));
+		
 		dropDowns.stream().forEach(s->System.out.println(s.getText()));
 		
+		List<String> listOfDropDown = dropDowns.stream() .map(s->s.getText()) .collect(Collectors.toList());
+		boolean isEqual = listOfDropDown.equals(arraylist());
 		
-		//List dropDowns = (List) driver.findElements(dropDownsHomePage);
-		
-		//Assert.assertEquals(driver.findElements(dropDownsHomePageLogo).size(),a);
-		
-		//BaseHelper.click(myLambton);
+		Assert.assertTrue( isEqual);
 	}
 	
 	
@@ -80,7 +80,45 @@ public class Login_Home_Page extends Login_Home{
 		
 			
 		Assert.assertEquals(driver.findElement(homePageVisitTag).getText(),getObject("Home_Page_Visit"));
+		
 	}
+	
+	@Test(priority = 8)
+	public void VerifyMyLambtonHomePagePresence() throws Exception {
+		
+		
+		// verify the presence of Visit Tag
+		Assert.assertTrue(driver.findElement(homePageMyLambton).isDisplayed(), "true");
+		
+		
+	}
+	@Test(priority = 9)
+	public void VerifyMyLambtonTagHomePageName() throws Exception {
+		
+			
+		Assert.assertEquals(driver.findElement(homePageMyLambton).getText(),getObject("Home_Page_MyLambton"));
+		
+	}
+	
+	@Test(priority = 10)
+	public void VerifySearchBarHomePagePresence() throws Exception {
+		
+		
+		// verify the presence of Visit Tag
+		Assert.assertTrue(driver.findElement(homePageSearchBar).isDisplayed(), "true");
+		
+		
+	}
+	@Test(priority = 11)
+	public void VerifySearchButtonHomePagePresence() throws Exception {
+		
+		
+		// verify the presence of Visit Tag
+		Assert.assertTrue(driver.findElement(homePageSearchButton).isDisplayed(), "true");
+		
+		
+	}
+	
 	
 	@AfterSuite  
 	public void after_suite()  
