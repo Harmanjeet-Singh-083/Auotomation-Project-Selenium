@@ -2,34 +2,34 @@
 <testng-results total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-10T11:16:45Z" name="Default suite" finished-at="2021-06-10T11:17:01Z" duration-ms="15989">
+  <suite started-at="2021-06-17T11:19:13Z" name="Suite" finished-at="2021-06-17T11:20:26Z" duration-ms="72910">
     <groups>
     </groups>
-    <test started-at="2021-06-10T11:16:45Z" name="Default test" finished-at="2021-06-10T11:17:01Z" duration-ms="15989">
+    <test started-at="2021-06-17T11:19:13Z" name="Test" finished-at="2021-06-17T11:20:26Z" duration-ms="72910">
       <class name="Capstone.Login_Home_Page">
-        <test-method signature="Login()" started-at="2021-06-10T11:16:45Z" name="Login" finished-at="2021-06-10T11:16:57Z" duration-ms="12547" status="PASS">
+        <test-method signature="Login()" started-at="2021-06-17T11:19:13Z" name="Login" finished-at="2021-06-17T11:20:23Z" duration-ms="70267" status="PASS">
         </test-method>
-        <test-method signature="HomePageVerifyTitle()" started-at="2021-06-10T11:16:57Z" name="HomePageVerifyTitle" finished-at="2021-06-10T11:16:57Z" duration-ms="27" status="PASS">
+        <test-method signature="HomePageVerifyTitle()" started-at="2021-06-17T11:20:23Z" name="HomePageVerifyTitle" finished-at="2021-06-17T11:20:23Z" duration-ms="22" status="PASS">
         </test-method>
-        <test-method signature="HomePageVerifyLogo()" started-at="2021-06-10T11:16:57Z" name="HomePageVerifyLogo" finished-at="2021-06-10T11:16:59Z" duration-ms="2139" status="PASS">
+        <test-method signature="HomePageVerifyLogo()" started-at="2021-06-17T11:20:23Z" name="HomePageVerifyLogo" finished-at="2021-06-17T11:20:23Z" duration-ms="428" status="PASS">
         </test-method>
-        <test-method signature="HomePageDropDownsCount()" started-at="2021-06-10T11:16:59Z" name="HomePageDropDownsCount" finished-at="2021-06-10T11:16:59Z" duration-ms="57" status="PASS">
+        <test-method signature="HomePageDropDownsCount()" started-at="2021-06-17T11:20:23Z" name="HomePageDropDownsCount" finished-at="2021-06-17T11:20:24Z" duration-ms="88" status="PASS">
         </test-method>
-        <test-method signature="HomePageDropDownsName()" started-at="2021-06-10T11:16:59Z" name="HomePageDropDownsName" finished-at="2021-06-10T11:17:00Z" duration-ms="431" status="PASS">
+        <test-method signature="HomePageDropDownsName()" started-at="2021-06-17T11:20:24Z" name="HomePageDropDownsName" finished-at="2021-06-17T11:20:25Z" duration-ms="992" status="PASS">
         </test-method>
-        <test-method signature="VerifyVisitTagHomePagePresence()" started-at="2021-06-10T11:17:00Z" name="VerifyVisitTagHomePagePresence" finished-at="2021-06-10T11:17:00Z" duration-ms="104" status="PASS">
+        <test-method signature="VerifyVisitTagHomePagePresence()" started-at="2021-06-17T11:20:25Z" name="VerifyVisitTagHomePagePresence" finished-at="2021-06-17T11:20:25Z" duration-ms="310" status="PASS">
         </test-method>
-        <test-method signature="VerifyVisitTagHomePageName()" started-at="2021-06-10T11:17:00Z" name="VerifyVisitTagHomePageName" finished-at="2021-06-10T11:17:00Z" duration-ms="78" status="PASS">
+        <test-method signature="VerifyVisitTagHomePageName()" started-at="2021-06-17T11:20:25Z" name="VerifyVisitTagHomePageName" finished-at="2021-06-17T11:20:25Z" duration-ms="148" status="PASS">
         </test-method>
-        <test-method signature="VerifyMyLambtonHomePagePresence()" started-at="2021-06-10T11:17:00Z" name="VerifyMyLambtonHomePagePresence" finished-at="2021-06-10T11:17:00Z" duration-ms="91" status="PASS">
+        <test-method signature="VerifyMyLambtonHomePagePresence()" started-at="2021-06-17T11:20:25Z" name="VerifyMyLambtonHomePagePresence" finished-at="2021-06-17T11:20:25Z" duration-ms="174" status="PASS">
         </test-method>
-        <test-method signature="VerifyMyLambtonTagHomePageName()" started-at="2021-06-10T11:17:00Z" name="VerifyMyLambtonTagHomePageName" finished-at="2021-06-10T11:17:00Z" duration-ms="86" status="PASS">
+        <test-method signature="VerifyMyLambtonTagHomePageName()" started-at="2021-06-17T11:20:25Z" name="VerifyMyLambtonTagHomePageName" finished-at="2021-06-17T11:20:25Z" duration-ms="128" status="PASS">
         </test-method>
-        <test-method signature="VerifySearchBarHomePagePresence()" started-at="2021-06-10T11:17:00Z" name="VerifySearchBarHomePagePresence" finished-at="2021-06-10T11:17:00Z" duration-ms="66" status="PASS">
+        <test-method signature="VerifySearchBarHomePagePresence()" started-at="2021-06-17T11:20:25Z" name="VerifySearchBarHomePagePresence" finished-at="2021-06-17T11:20:26Z" duration-ms="227" status="PASS">
         </test-method>
-        <test-method signature="VerifySearchButtonHomePagePresence()" started-at="2021-06-10T11:17:00Z" name="VerifySearchButtonHomePagePresence" finished-at="2021-06-10T11:17:01Z" duration-ms="322" status="PASS">
+        <test-method signature="VerifySearchButtonHomePagePresence()" started-at="2021-06-17T11:20:26Z" name="VerifySearchButtonHomePagePresence" finished-at="2021-06-17T11:20:26Z" duration-ms="48" status="PASS">
         </test-method>
-        <test-method is-config="true" signature="after_suite()" started-at="2021-06-10T11:17:01Z" name="after_suite" finished-at="2021-06-10T11:17:02Z" duration-ms="1231" status="PASS">
+        <test-method is-config="true" signature="after_suite()" started-at="2021-06-17T11:20:31Z" name="after_suite" finished-at="2021-06-17T11:20:31Z" duration-ms="1" status="PASS">
         </test-method>
       </class>
     </test>
