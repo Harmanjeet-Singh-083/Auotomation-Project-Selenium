@@ -121,17 +121,16 @@ public class Login_Home_Page extends Login_Home{
 		
 	}
 	
+	@AfterSuite
+	public void closebrowser() {
+		
+		driver.close();
+	}
 	
 	
 	
 	
 	
-	
-	@AfterSuite  
-	public void after_suite()  
-	{  
-	   //driver.quit();
-	      
-	}  
+	  
 	
 }
