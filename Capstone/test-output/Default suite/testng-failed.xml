@@ -3,10 +3,9 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)" preserve-order="false">
     <classes>
-      <class name="Capstone.Login_Home_Page">
+      <class name="Capstone.DropDown_HomePage_Page">
         <methods>
-          <include name="VerifySearchButtonHomePagePresence1"/>
-          <include name="after_suite"/>
+          <include name="VerifyFutureStudentDropDownMenu"/>
         </methods>
       </class>
     </classes>

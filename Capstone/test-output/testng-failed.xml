@@ -10,7 +10,7 @@
       </class>
       <class name="Capstone.DropDown_HomePage_Page">
         <methods>
-          <include name="VerifyAboutUsDropDownMenu"/>
+          <include name="VerifyAddmissionsDownMenu"/>
         </methods>
       </class>
     </classes>
