@@ -1,11 +1,13 @@
 package Capstone;
-
+///////
 import java.util.List;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.Test;
@@ -119,12 +121,16 @@ public class Login_Home_Page extends Login_Home{
 		
 	}
 	
+	@AfterSuite
+	public void closebrowser() {
+		
+		driver.close();
+	}
 	
-	@AfterSuite  
-	public void after_suite()  
-	{  
-	    driver.quit();
-	      
-	}  
+	
+	
+	
+	
+	  
 	
 }

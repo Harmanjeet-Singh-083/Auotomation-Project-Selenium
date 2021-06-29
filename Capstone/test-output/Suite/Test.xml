@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Harmanjeet" failures="0" tests="17" name="Capstone.DropDown_HomePage_Page" time="13.204" errors="0" timestamp="22 Jun 2021 05:31:18 GMT">
+  <testcase classname="Capstone.Login_Home_Page" name="Login" time="8.234"/>
+  <testcase classname="Capstone.Login_Home_Page" name="HomePageVerifyTitle" time="0.046"/>
+  <testcase classname="Capstone.Login_Home_Page" name="HomePageVerifyLogo" time="0.29"/>
+  <testcase classname="Capstone.Login_Home_Page" name="HomePageDropDownsCount" time="0.04"/>
+  <testcase classname="Capstone.Login_Home_Page" name="HomePageDropDownsName" time="0.238"/>
+  <testcase classname="Capstone.Login_Home_Page" name="VerifyVisitTagHomePagePresence" time="0.189"/>
+  <testcase classname="Capstone.Login_Home_Page" name="VerifyVisitTagHomePageName" time="0.046"/>
+  <testcase classname="Capstone.Login_Home_Page" name="VerifyMyLambtonHomePagePresence" time="0.053"/>
+  <testcase classname="Capstone.Login_Home_Page" name="VerifyMyLambtonTagHomePageName" time="0.049"/>
+  <testcase classname="Capstone.Login_Home_Page" name="VerifySearchBarHomePagePresence" time="0.071"/>
+  <testcase classname="Capstone.Login_Home_Page" name="VerifySearchButtonHomePagePresence" time="0.062"/>
+  <testcase classname="Capstone.DropDown_HomePage_Page" name="VerifyFutureStudentDropDownMenu" time="0.646"/>
+  <testcase classname="Capstone.DropDown_HomePage_Page" name="VerifyAboutUsDropDownMenu" time="0.627"/>
+  <testcase classname="Capstone.DropDown_HomePage_Page" name="VerifyProgramsDownMenu" time="0.467"/>
+  <testcase classname="Capstone.DropDown_HomePage_Page" name="VerifyAllServicesDownMenu" time="1.044"/>
+  <testcase classname="Capstone.DropDown_HomePage_Page" name="VerifyAddmissionsDownMenu" time="0.53"/>
+  <testcase classname="Capstone.DropDown_HomePage_Page" name="VerifyContactsDownMenu" time="0.513"/>
+</testsuite>
