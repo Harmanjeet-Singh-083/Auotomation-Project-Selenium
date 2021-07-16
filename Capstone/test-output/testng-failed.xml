@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Suite]">
-  <test parallel="none" name="Test(failed)" preserve-order="false">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)" preserve-order="false">
     <classes>
-      <class name="Capstone.Login_Home_Page">
+      <class name="Capstone.ScrollDown_Page">
         <methods>
-          <include name="closebrowser"/>
-        </methods>
-      </class>
-      <class name="Capstone.DropDown_HomePage_Page">
-        <methods>
-          <include name="VerifyAddmissionsDownMenu"/>
+          <include name="All_Program"/>
         </methods>
       </class>
     </classes>

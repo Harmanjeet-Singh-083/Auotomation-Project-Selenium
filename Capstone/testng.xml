@@ -6,6 +6,7 @@
       
       <class name="Capstone.Login_Home_Page"/>
       <class name="Capstone.DropDown_HomePage_Page"/>
+      <class name="Capstone.ScrollDown_Page"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,49 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="17" passed="17" failed="0" skipped="0">
+<testng-results total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-22T01:31:05Z" name="Suite" finished-at="2021-06-22T01:31:18Z" duration-ms="13204">
+  <suite started-at="2021-07-11T10:50:27Z" name="Suite" finished-at="2021-07-11T10:50:51Z" duration-ms="23083">
     <groups>
     </groups>
-    <test started-at="2021-06-22T01:31:05Z" name="Test" finished-at="2021-06-22T01:31:18Z" duration-ms="13204">
+    <test started-at="2021-07-11T10:50:27Z" name="Test" finished-at="2021-07-11T10:50:51Z" duration-ms="23083">
+      <class name="Capstone.ScrollDown_Page">
+        <test-method signature="scroll()" started-at="2021-07-11T10:50:50Z" name="scroll" finished-at="2021-07-11T10:50:50Z" duration-ms="95" status="PASS">
+        </test-method>
+        <test-method signature="All_Program()" started-at="2021-07-11T10:50:50Z" name="All_Program" finished-at="2021-07-11T10:50:50Z" duration-ms="61" status="PASS">
+        </test-method>
+        <test-method signature="Program_categories()" started-at="2021-07-11T10:50:50Z" name="Program_categories" finished-at="2021-07-11T10:50:50Z" duration-ms="52" status="PASS">
+        </test-method>
+        <test-method signature="Program_categories_click()" started-at="2021-07-11T10:50:50Z" name="Program_categories_click" finished-at="2021-07-11T10:50:51Z" duration-ms="175" status="PASS">
+        </test-method>
+      </class>
       <class name="Capstone.Login_Home_Page">
-        <test-method signature="Login()" started-at="2021-06-22T01:31:05Z" name="Login" finished-at="2021-06-22T01:31:13Z" duration-ms="8234" status="PASS">
+        <test-method signature="Login()" started-at="2021-07-11T10:50:28Z" name="Login" finished-at="2021-07-11T10:50:43Z" duration-ms="15217" status="PASS">
         </test-method>
-        <test-method signature="HomePageVerifyTitle()" started-at="2021-06-22T01:31:13Z" name="HomePageVerifyTitle" finished-at="2021-06-22T01:31:13Z" duration-ms="46" status="PASS">
+        <test-method signature="HomePageVerifyTitle()" started-at="2021-07-11T10:50:43Z" name="HomePageVerifyTitle" finished-at="2021-07-11T10:50:43Z" duration-ms="41" status="PASS">
         </test-method>
-        <test-method signature="HomePageVerifyLogo()" started-at="2021-06-22T01:31:13Z" name="HomePageVerifyLogo" finished-at="2021-06-22T01:31:14Z" duration-ms="290" status="PASS">
+        <test-method signature="HomePageVerifyLogo()" started-at="2021-07-11T10:50:43Z" name="HomePageVerifyLogo" finished-at="2021-07-11T10:50:43Z" duration-ms="422" status="PASS">
         </test-method>
-        <test-method signature="HomePageDropDownsCount()" started-at="2021-06-22T01:31:14Z" name="HomePageDropDownsCount" finished-at="2021-06-22T01:31:14Z" duration-ms="40" status="PASS">
+        <test-method signature="HomePageDropDownsCount()" started-at="2021-07-11T10:50:43Z" name="HomePageDropDownsCount" finished-at="2021-07-11T10:50:43Z" duration-ms="34" status="PASS">
         </test-method>
-        <test-method signature="HomePageDropDownsName()" started-at="2021-06-22T01:31:14Z" name="HomePageDropDownsName" finished-at="2021-06-22T01:31:14Z" duration-ms="238" status="PASS">
+        <test-method signature="HomePageDropDownsName()" started-at="2021-07-11T10:50:43Z" name="HomePageDropDownsName" finished-at="2021-07-11T10:50:44Z" duration-ms="258" status="PASS">
         </test-method>
-        <test-method signature="VerifyVisitTagHomePagePresence()" started-at="2021-06-22T01:31:14Z" name="VerifyVisitTagHomePagePresence" finished-at="2021-06-22T01:31:14Z" duration-ms="189" status="PASS">
+        <test-method signature="VerifyVisitTagHomePagePresence()" started-at="2021-07-11T10:50:44Z" name="VerifyVisitTagHomePagePresence" finished-at="2021-07-11T10:50:44Z" duration-ms="64" status="PASS">
         </test-method>
-        <test-method signature="VerifyVisitTagHomePageName()" started-at="2021-06-22T01:31:14Z" name="VerifyVisitTagHomePageName" finished-at="2021-06-22T01:31:14Z" duration-ms="46" status="PASS">
+        <test-method signature="VerifyVisitTagHomePageName()" started-at="2021-07-11T10:50:44Z" name="VerifyVisitTagHomePageName" finished-at="2021-07-11T10:50:44Z" duration-ms="41" status="PASS">
         </test-method>
-        <test-method signature="VerifyMyLambtonHomePagePresence()" started-at="2021-06-22T01:31:14Z" name="VerifyMyLambtonHomePagePresence" finished-at="2021-06-22T01:31:14Z" duration-ms="53" status="PASS">
+        <test-method signature="VerifyMyLambtonHomePagePresence()" started-at="2021-07-11T10:50:44Z" name="VerifyMyLambtonHomePagePresence" finished-at="2021-07-11T10:50:44Z" duration-ms="49" status="PASS">
         </test-method>
-        <test-method signature="VerifyMyLambtonTagHomePageName()" started-at="2021-06-22T01:31:14Z" name="VerifyMyLambtonTagHomePageName" finished-at="2021-06-22T01:31:14Z" duration-ms="49" status="PASS">
+        <test-method signature="VerifyMyLambtonTagHomePageName()" started-at="2021-07-11T10:50:44Z" name="VerifyMyLambtonTagHomePageName" finished-at="2021-07-11T10:50:44Z" duration-ms="39" status="PASS">
         </test-method>
-        <test-method signature="VerifySearchBarHomePagePresence()" started-at="2021-06-22T01:31:14Z" name="VerifySearchBarHomePagePresence" finished-at="2021-06-22T01:31:14Z" duration-ms="71" status="PASS">
+        <test-method signature="VerifySearchBarHomePagePresence()" started-at="2021-07-11T10:50:44Z" name="VerifySearchBarHomePagePresence" finished-at="2021-07-11T10:50:44Z" duration-ms="45" status="PASS">
         </test-method>
-        <test-method signature="VerifySearchButtonHomePagePresence()" started-at="2021-06-22T01:31:14Z" name="VerifySearchButtonHomePagePresence" finished-at="2021-06-22T01:31:14Z" duration-ms="62" status="PASS">
+        <test-method signature="VerifySearchButtonHomePagePresence()" started-at="2021-07-11T10:50:44Z" name="VerifySearchButtonHomePagePresence" finished-at="2021-07-11T10:50:44Z" duration-ms="50" status="PASS">
         </test-method>
-        <test-method is-config="true" signature="closebrowser()" started-at="2021-06-22T01:31:18Z" name="closebrowser" finished-at="2021-06-22T01:31:19Z" duration-ms="319" status="PASS">
+        <test-method is-config="true" signature="closebrowser()" started-at="2021-07-11T10:50:51Z" name="closebrowser" finished-at="2021-07-11T10:50:53Z" duration-ms="1965" status="PASS">
         </test-method>
       </class>
       <class name="Capstone.DropDown_HomePage_Page">
-        <test-method signature="VerifyFutureStudentDropDownMenu()" started-at="2021-06-22T01:31:14Z" name="VerifyFutureStudentDropDownMenu" finished-at="2021-06-22T01:31:15Z" duration-ms="646" status="PASS">
+        <test-method signature="VerifyFutureStudentDropDownMenu()" started-at="2021-07-11T10:50:44Z" name="VerifyFutureStudentDropDownMenu" finished-at="2021-07-11T10:50:46Z" duration-ms="1687" status="PASS">
         </test-method>
-        <test-method signature="VerifyAboutUsDropDownMenu()" started-at="2021-06-22T01:31:15Z" name="VerifyAboutUsDropDownMenu" finished-at="2021-06-22T01:31:16Z" duration-ms="627" status="PASS">
+        <test-method signature="VerifyAboutUsDropDownMenu()" started-at="2021-07-11T10:50:46Z" name="VerifyAboutUsDropDownMenu" finished-at="2021-07-11T10:50:47Z" duration-ms="1046" status="PASS">
         </test-method>
-        <test-method signature="VerifyProgramsDownMenu()" started-at="2021-06-22T01:31:16Z" name="VerifyProgramsDownMenu" finished-at="2021-06-22T01:31:16Z" duration-ms="467" status="PASS">
+        <test-method signature="VerifyProgramsDownMenu()" started-at="2021-07-11T10:50:47Z" name="VerifyProgramsDownMenu" finished-at="2021-07-11T10:50:47Z" duration-ms="639" status="PASS">
         </test-method>
-        <test-method signature="VerifyAllServicesDownMenu()" started-at="2021-06-22T01:31:16Z" name="VerifyAllServicesDownMenu" finished-at="2021-06-22T01:31:17Z" duration-ms="1044" status="PASS">
+        <test-method signature="VerifyAllServicesDownMenu()" started-at="2021-07-11T10:50:47Z" name="VerifyAllServicesDownMenu" finished-at="2021-07-11T10:50:49Z" duration-ms="1444" status="PASS">
         </test-method>
-        <test-method signature="VerifyAddmissionsDownMenu()" started-at="2021-06-22T01:31:17Z" name="VerifyAddmissionsDownMenu" finished-at="2021-06-22T01:31:18Z" duration-ms="530" status="PASS">
+        <test-method signature="VerifyAddmissionsDownMenu()" started-at="2021-07-11T10:50:49Z" name="VerifyAddmissionsDownMenu" finished-at="2021-07-11T10:50:49Z" duration-ms="761" status="PASS">
         </test-method>
-        <test-method signature="VerifyContactsDownMenu()" started-at="2021-06-22T01:31:18Z" name="VerifyContactsDownMenu" finished-at="2021-06-22T01:31:18Z" duration-ms="513" status="PASS">
+        <test-method signature="VerifyContactsDownMenu()" started-at="2021-07-11T10:50:49Z" name="VerifyContactsDownMenu" finished-at="2021-07-11T10:50:50Z" duration-ms="687" status="PASS">
         </test-method>
       </class>
     </test>
