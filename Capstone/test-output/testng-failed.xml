@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Default suite]">
-  <test parallel="none" name="Default test(failed)" preserve-order="false">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Capstone.ScrollDown_Page">
+      <class name="Capstone.DropDown_HomePage_Page">
         <methods>
-          <include name="All_Program"/>
+          <include name="VerifyAllServicesDownMenu"/>
+          <include name="VerifyContactsDownMenu"/>
         </methods>
-      </class>
+      </class> <!-- Capstone.DropDown_HomePage_Page -->
     </classes>
-  </test>
-</suite>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

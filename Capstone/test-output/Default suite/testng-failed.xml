@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Default suite]">
-  <test parallel="none" name="Default test(failed)" preserve-order="false">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="Capstone.Login_Home_Page">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="VerifyVisitTagHomePagePresence"/>
+          <include name="HomePageDropDownsName"/>
+          <include name="HomePageDropDownsCount"/>
+          <include name="HomePageVerifyLogo"/>
+          <include name="VerifyMyLambtonTagHomePageName"/>
+          <include name="VerifyVisitTagHomePageName"/>
+          <include name="VerifyMyLambtonHomePagePresence"/>
+          <include name="HomePageVerifyTitle"/>
+          <include name="VerifySearchBarHomePagePresence"/>
+          <include name="Login"/>
+          <include name="VerifySearchButtonHomePagePresence"/>
+        </methods>
+      </class> <!-- Capstone.Login_Home_Page -->
       <class name="Capstone.ScrollDown_Page">
         <methods>
           <include name="All_Program"/>
+          <include name="Program_categories"/>
+          <include name="scroll"/>
+          <include name="Program_categories_elements"/>
+          <include name="Program_categories_click"/>
         </methods>
-      </class>
+      </class> <!-- Capstone.ScrollDown_Page -->
+      <class name="Capstone.DropDown_HomePage_Page">
+        <methods>
+          <include name="VerifyAboutUsDropDownMenu"/>
+          <include name="VerifyFutureStudentDropDownMenu"/>
+          <include name="VerifyProgramsDownMenu"/>
+          <include name="VerifyAllServicesDownMenu"/>
+          <include name="VerifyContactsDownMenu"/>
+          <include name="VerifyAddmissionsDownMenu"/>
+        </methods>
+      </class> <!-- Capstone.DropDown_HomePage_Page -->
     </classes>
-  </test>
-</suite>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
