@@ -20,6 +20,16 @@ public class Login_Home_Page extends Login_Home{
 	public void Login() throws Exception
 	{		
 		
+	System.out.println("Start");
+	
+	
+	}
+	
+	
+	@Test(priority = 1)
+	public void Login1() throws Exception
+	{		
+		
 	BaseHelper.startApp(getObject("Home_Page_URL"), getObject("browser"));
 	
 	

@@ -1,9 +1,752 @@
+<!DOCTYPE html>
+
 <html>
-<head><title>Test results</title><link href="./testng.css" rel="stylesheet" type="text/css" />
-<link href="./my-testng.css" rel="stylesheet" type="text/css" />
-</head><body>
-<h2><p align='center'>Test results</p></h2>
-<table border='1' width='100%' class='main-page'><tr><th>Suite</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>testng.xml</th></tr>
-<tr align='center' class='invocation-passed'><td><em>Total</em></td><td><em>17</em></td><td><em>0</em></td><td><em>0</em></td><td>&nbsp;</td></tr>
-<tr align='center' class='invocation-passed'><td><a href='Suite/index.html'>Suite</a></td>
-<td>17</td><td>0</td><td>0</td><td><a href='Suite/testng.xml.html'>Link</a></td></tr></table></body></html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>G:\Capstone Repository\Capstone\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 2 failed,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.DropDown_HomePage_Page" class="method navigator-link" hash-for-method="VerifyAllServicesDownMenu">VerifyAllServicesDownMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.DropDown_HomePage_Page" class="method navigator-link" hash-for-method="VerifyContactsDownMenu">VerifyContactsDownMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.ScrollDown_Page" class="method navigator-link" hash-for-method="All_Program">All_Program</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.Login_Home_Page" class="method navigator-link" hash-for-method="HomePageDropDownsCount">HomePageDropDownsCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.Login_Home_Page" class="method navigator-link" hash-for-method="HomePageDropDownsName">HomePageDropDownsName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.Login_Home_Page" class="method navigator-link" hash-for-method="HomePageVerifyLogo">HomePageVerifyLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.Login_Home_Page" class="method navigator-link" hash-for-method="HomePageVerifyTitle">HomePageVerifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.Login_Home_Page" class="method navigator-link" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.Login_Home_Page" class="method navigator-link" hash-for-method="Login1">Login1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.ScrollDown_Page" class="method navigator-link" hash-for-method="Program_categories">Program_categories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.ScrollDown_Page" class="method navigator-link" hash-for-method="Program_categories_click">Program_categories_click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.ScrollDown_Page" class="method navigator-link" hash-for-method="Program_categories_elements">Program_categories_elements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.ScrollDown_Page" class="method navigator-link" hash-for-method="Programelements">Programelements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.DropDown_HomePage_Page" class="method navigator-link" hash-for-method="VerifyAboutUsDropDownMenu">VerifyAboutUsDropDownMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.DropDown_HomePage_Page" class="method navigator-link" hash-for-method="VerifyAddmissionsDownMenu">VerifyAddmissionsDownMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.DropDown_HomePage_Page" class="method navigator-link" hash-for-method="VerifyFutureStudentDropDownMenu">VerifyFutureStudentDropDownMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.Login_Home_Page" class="method navigator-link" hash-for-method="VerifyMyLambtonHomePagePresence">VerifyMyLambtonHomePagePresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.Login_Home_Page" class="method navigator-link" hash-for-method="VerifyMyLambtonTagHomePageName">VerifyMyLambtonTagHomePageName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.DropDown_HomePage_Page" class="method navigator-link" hash-for-method="VerifyProgramsDownMenu">VerifyProgramsDownMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.Login_Home_Page" class="method navigator-link" hash-for-method="VerifySearchBarHomePagePresence">VerifySearchBarHomePagePresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.Login_Home_Page" class="method navigator-link" hash-for-method="VerifySearchButtonHomePagePresence">VerifySearchButtonHomePagePresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.Login_Home_Page" class="method navigator-link" hash-for-method="VerifyVisitTagHomePageName">VerifyVisitTagHomePageName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.Login_Home_Page" class="method navigator-link" hash-for-method="VerifyVisitTagHomePagePresence">VerifyVisitTagHomePagePresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Capstone.ScrollDown_Page" class="method navigator-link" hash-for-method="scroll">scroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Capstone.DropDown_HomePage_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAllServicesDownMenu">
+                  </a> <!-- VerifyAllServicesDownMenu -->
+                  <span class="method-name">VerifyAllServicesDownMenu</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at Capstone.DropDown_HomePage_Page.VerifyAllServicesDownMenu(DropDown_HomePage_Page.java:48)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyContactsDownMenu">
+                  </a> <!-- VerifyContactsDownMenu -->
+                  <span class="method-name">VerifyContactsDownMenu</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at Capstone.DropDown_HomePage_Page.VerifyContactsDownMenu(DropDown_HomePage_Page.java:61)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Capstone.Login_Home_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageDropDownsCount">
+                  </a> <!-- HomePageDropDownsCount -->
+                  <span class="method-name">HomePageDropDownsCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageDropDownsName">
+                  </a> <!-- HomePageDropDownsName -->
+                  <span class="method-name">HomePageDropDownsName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageVerifyLogo">
+                  </a> <!-- HomePageVerifyLogo -->
+                  <span class="method-name">HomePageVerifyLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageVerifyTitle">
+                  </a> <!-- HomePageVerifyTitle -->
+                  <span class="method-name">HomePageVerifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login1">
+                  </a> <!-- Login1 -->
+                  <span class="method-name">Login1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMyLambtonHomePagePresence">
+                  </a> <!-- VerifyMyLambtonHomePagePresence -->
+                  <span class="method-name">VerifyMyLambtonHomePagePresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMyLambtonTagHomePageName">
+                  </a> <!-- VerifyMyLambtonTagHomePageName -->
+                  <span class="method-name">VerifyMyLambtonTagHomePageName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchBarHomePagePresence">
+                  </a> <!-- VerifySearchBarHomePagePresence -->
+                  <span class="method-name">VerifySearchBarHomePagePresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchButtonHomePagePresence">
+                  </a> <!-- VerifySearchButtonHomePagePresence -->
+                  <span class="method-name">VerifySearchButtonHomePagePresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyVisitTagHomePageName">
+                  </a> <!-- VerifyVisitTagHomePageName -->
+                  <span class="method-name">VerifyVisitTagHomePageName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyVisitTagHomePagePresence">
+                  </a> <!-- VerifyVisitTagHomePagePresence -->
+                  <span class="method-name">VerifyVisitTagHomePagePresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Capstone.DropDown_HomePage_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAboutUsDropDownMenu">
+                  </a> <!-- VerifyAboutUsDropDownMenu -->
+                  <span class="method-name">VerifyAboutUsDropDownMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddmissionsDownMenu">
+                  </a> <!-- VerifyAddmissionsDownMenu -->
+                  <span class="method-name">VerifyAddmissionsDownMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyFutureStudentDropDownMenu">
+                  </a> <!-- VerifyFutureStudentDropDownMenu -->
+                  <span class="method-name">VerifyFutureStudentDropDownMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyProgramsDownMenu">
+                  </a> <!-- VerifyProgramsDownMenu -->
+                  <span class="method-name">VerifyProgramsDownMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Capstone.ScrollDown_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="All_Program">
+                  </a> <!-- All_Program -->
+                  <span class="method-name">All_Program</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Program_categories">
+                  </a> <!-- Program_categories -->
+                  <span class="method-name">Program_categories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Program_categories_click">
+                  </a> <!-- Program_categories_click -->
+                  <span class="method-name">Program_categories_click</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Program_categories_elements">
+                  </a> <!-- Program_categories_elements -->
+                  <span class="method-name">Program_categories_elements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Programelements">
+                  </a> <!-- Programelements -->
+                  <span class="method-name">Programelements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scroll">
+                  </a> <!-- scroll -->
+                  <span class="method-name">scroll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">G:\Capstone Repository\Capstone\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Capstone.Login_Home_Page&quot;/&gt;
+      &lt;class name=&quot;Capstone.DropDown_HomePage_Page&quot;/&gt;
+      &lt;class name=&quot;Capstone.ScrollDown_Page&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Login1')
+data.setCell(0, 2, 'Capstone.Login_Home_Page')
+data.setCell(0, 3, 8104);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyAllServicesDownMenu')
+data.setCell(1, 2, 'Capstone.DropDown_HomePage_Page')
+data.setCell(1, 3, 1129);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyFutureStudentDropDownMenu')
+data.setCell(2, 2, 'Capstone.DropDown_HomePage_Page')
+data.setCell(2, 3, 822);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyAboutUsDropDownMenu')
+data.setCell(3, 2, 'Capstone.DropDown_HomePage_Page')
+data.setCell(3, 3, 700);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyProgramsDownMenu')
+data.setCell(4, 2, 'Capstone.DropDown_HomePage_Page')
+data.setCell(4, 3, 569);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyContactsDownMenu')
+data.setCell(5, 2, 'Capstone.DropDown_HomePage_Page')
+data.setCell(5, 3, 498);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyAddmissionsDownMenu')
+data.setCell(6, 2, 'Capstone.DropDown_HomePage_Page')
+data.setCell(6, 3, 474);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Program_categories_elements')
+data.setCell(7, 2, 'Capstone.ScrollDown_Page')
+data.setCell(7, 3, 470);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyVisitTagHomePagePresence')
+data.setCell(8, 2, 'Capstone.Login_Home_Page')
+data.setCell(8, 3, 361);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'HomePageDropDownsName')
+data.setCell(9, 2, 'Capstone.Login_Home_Page')
+data.setCell(9, 3, 329);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'HomePageVerifyLogo')
+data.setCell(10, 2, 'Capstone.Login_Home_Page')
+data.setCell(10, 3, 182);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Program_categories_click')
+data.setCell(11, 2, 'Capstone.ScrollDown_Page')
+data.setCell(11, 3, 172);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'scroll')
+data.setCell(12, 2, 'Capstone.ScrollDown_Page')
+data.setCell(12, 3, 100);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'VerifyVisitTagHomePageName')
+data.setCell(13, 2, 'Capstone.Login_Home_Page')
+data.setCell(13, 3, 79);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'HomePageDropDownsCount')
+data.setCell(14, 2, 'Capstone.Login_Home_Page')
+data.setCell(14, 3, 69);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'VerifySearchBarHomePagePresence')
+data.setCell(15, 2, 'Capstone.Login_Home_Page')
+data.setCell(15, 3, 65);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'All_Program')
+data.setCell(16, 2, 'Capstone.ScrollDown_Page')
+data.setCell(16, 3, 62);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'VerifyMyLambtonHomePagePresence')
+data.setCell(17, 2, 'Capstone.Login_Home_Page')
+data.setCell(17, 3, 59);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'VerifySearchButtonHomePagePresence')
+data.setCell(18, 2, 'Capstone.Login_Home_Page')
+data.setCell(18, 3, 57);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Program_categories')
+data.setCell(19, 2, 'Capstone.ScrollDown_Page')
+data.setCell(19, 3, 51);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'VerifyMyLambtonTagHomePageName')
+data.setCell(20, 2, 'Capstone.Login_Home_Page')
+data.setCell(20, 3, 45);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'HomePageVerifyTitle')
+data.setCell(21, 2, 'Capstone.Login_Home_Page')
+data.setCell(21, 3, 20);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Login')
+data.setCell(22, 2, 'Capstone.Login_Home_Page')
+data.setCell(22, 3, 15);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Programelements')
+data.setCell(23, 2, 'Capstone.ScrollDown_Page')
+data.setCell(23, 3, 2);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Capstone.Login_Home_Page</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Login</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login1</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePageVerifyTitle</span>
+                <span class="method-start">8134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePageVerifyLogo</span>
+                <span class="method-start">8157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePageDropDownsCount</span>
+                <span class="method-start">8347 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePageDropDownsName</span>
+                <span class="method-start">8419 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyVisitTagHomePagePresence</span>
+                <span class="method-start">8751 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyVisitTagHomePageName</span>
+                <span class="method-start">9116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyMyLambtonHomePagePresence</span>
+                <span class="method-start">9198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyMyLambtonTagHomePageName</span>
+                <span class="method-start">9259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchBarHomePagePresence</span>
+                <span class="method-start">9306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchButtonHomePagePresence</span>
+                <span class="method-start">9373 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Capstone.DropDown_HomePage_Page</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyFutureStudentDropDownMenu</span>
+                <span class="method-start">9435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyAboutUsDropDownMenu</span>
+                <span class="method-start">10261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyProgramsDownMenu</span>
+                <span class="method-start">10963 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyAllServicesDownMenu</span>
+                <span class="method-start">11534 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddmissionsDownMenu</span>
+                <span class="method-start">12708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyContactsDownMenu</span>
+                <span class="method-start">13183 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Capstone.ScrollDown_Page</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scroll</span>
+                <span class="method-start">13684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">All_Program</span>
+                <span class="method-start">13785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Program_categories</span>
+                <span class="method-start">13849 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Program_categories_click</span>
+                <span class="method-start">13902 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Program_categories_elements</span>
+                <span class="method-start">14080 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Programelements</span>
+                <span class="method-start">14551 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Capstone.Login_Home_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">14985 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
