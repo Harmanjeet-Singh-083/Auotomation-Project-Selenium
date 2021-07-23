@@ -14,7 +14,9 @@ public class DropDown_HomePage extends BaseHelper {
 	// Web Element future Student Drop Down
 	
 	static String FutureStudentsDropDownMenu="//*[@id='topmenu']/ul/li[1]/a";
-
+    
+	
+	
 	// Drop Down Elements in Future Students
 static By FutureStudentsDropDownMenuOptions = By.xpath("//*[@class = 'nav navbar-nav']/li[1]/ul/li/a");
 
@@ -105,7 +107,7 @@ public List<String> AllListArraylist() {
 					"Business Services", "Community Employment Services", "Contractors", "Co-op & Career Services", 
 					"Creations Restaurant", "Cube Entrepreneurship", "EarlyOn Centre" ,"Esports Arena" ,"Event Centre",
 					"Indigenous Student Centre", "Library", "Massage Clinic" ,"eLearning Development",
-					"Parking" ,"Placements", "Research & Innovation", "Residence" ,"Salon & Spa", "Testing");
+					 "Placements", "Research & Innovation", "Residence" ,"Salon & Spa", "Testing");
 
 			return AllList;
 		}
@@ -141,7 +143,7 @@ static By ContactsDropDownMenuOptions = By.xpath("//*[@class = 'nav navbar-nav']
 public List<String> ContactsArraylist() {
 
 List<String> Contacts = new ArrayList<String>();
-Collections.addAll(Contacts,"Facility Rentals","Locations", "Campus Maps", "Parking", "Contact Us", 
+Collections.addAll(Contacts,"Facility Rentals","Locations", "Campus Maps",  "Contact Us", 
 		"Tours & Program Advising", "COVID Protocols");
 
 

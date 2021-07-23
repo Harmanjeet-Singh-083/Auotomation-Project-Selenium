@@ -1,195 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="24" passed="22" failed="2" skipped="0">
+<testng-results ignored="0" total="32" passed="32" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-19T02:32:53Z" name="Suite" finished-at="2021-07-19T02:33:07Z" duration-ms="14592">
+  <suite started-at="2021-07-23T04:47:29Z" name="Suite" finished-at="2021-07-23T04:48:17Z" duration-ms="47951">
     <groups>
     </groups>
-    <test started-at="2021-07-19T02:32:53Z" name="Test" finished-at="2021-07-19T02:33:07Z" duration-ms="14592">
+    <test started-at="2021-07-23T04:47:29Z" name="Test" finished-at="2021-07-23T04:48:17Z" duration-ms="47951">
       <class name="Capstone.ScrollDown_Page">
-        <test-method signature="scroll()[pri:18, instance:Capstone.ScrollDown_Page@2f54a33d]" started-at="2021-07-19T02:33:06Z" name="scroll" finished-at="2021-07-19T02:33:07Z" duration-ms="100" status="PASS">
+        <test-method signature="scroll()[pri:18, instance:Capstone.ScrollDown_Page@ba54932]" started-at="2021-07-23T04:47:46Z" name="scroll" finished-at="2021-07-23T04:47:46Z" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scroll -->
-        <test-method signature="All_Program()[pri:19, instance:Capstone.ScrollDown_Page@2f54a33d]" started-at="2021-07-19T02:33:07Z" name="All_Program" finished-at="2021-07-19T02:33:07Z" duration-ms="62" status="PASS">
+        <test-method signature="All_Program()[pri:19, instance:Capstone.ScrollDown_Page@ba54932]" started-at="2021-07-23T04:47:46Z" name="All_Program" finished-at="2021-07-23T04:47:46Z" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- All_Program -->
-        <test-method signature="Program_categories()[pri:20, instance:Capstone.ScrollDown_Page@2f54a33d]" started-at="2021-07-19T02:33:07Z" name="Program_categories" finished-at="2021-07-19T02:33:07Z" duration-ms="51" status="PASS">
+        <test-method signature="Program_categories()[pri:20, instance:Capstone.ScrollDown_Page@ba54932]" started-at="2021-07-23T04:47:46Z" name="Program_categories" finished-at="2021-07-23T04:47:46Z" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Program_categories -->
-        <test-method signature="Program_categories_click()[pri:21, instance:Capstone.ScrollDown_Page@2f54a33d]" started-at="2021-07-19T02:33:07Z" name="Program_categories_click" finished-at="2021-07-19T02:33:07Z" duration-ms="172" status="PASS">
+        <test-method signature="Program_categories_click()[pri:21, instance:Capstone.ScrollDown_Page@ba54932]" started-at="2021-07-23T04:47:46Z" name="Program_categories_click" finished-at="2021-07-23T04:47:46Z" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Program_categories_click -->
-        <test-method signature="Program_categories_elements()[pri:22, instance:Capstone.ScrollDown_Page@2f54a33d]" started-at="2021-07-19T02:33:07Z" name="Program_categories_elements" finished-at="2021-07-19T02:33:07Z" duration-ms="470" status="PASS">
+        <test-method signature="Program_categories_elements()[pri:22, instance:Capstone.ScrollDown_Page@ba54932]" started-at="2021-07-23T04:47:46Z" name="Program_categories_elements" finished-at="2021-07-23T04:47:47Z" duration-ms="972" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Program_categories_elements -->
-        <test-method signature="Programelements()[pri:23, instance:Capstone.ScrollDown_Page@2f54a33d]" started-at="2021-07-19T02:33:07Z" name="Programelements" finished-at="2021-07-19T02:33:07Z" duration-ms="2" status="PASS">
+        <test-method signature="Area_Of_interest_elements()[pri:23, instance:Capstone.ScrollDown_Page@ba54932]" started-at="2021-07-23T04:47:47Z" name="Area_Of_interest_elements" finished-at="2021-07-23T04:47:48Z" duration-ms="603" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Programelements -->
+        </test-method> <!-- Area_Of_interest_elements -->
+        <test-method signature="Type_in_search_Box()[pri:24, instance:Capstone.ScrollDown_Page@ba54932]" started-at="2021-07-23T04:47:48Z" name="Type_in_search_Box" finished-at="2021-07-23T04:47:49Z" duration-ms="1498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Type_in_search_Box -->
+        <test-method is-config="true" signature="after_class()[pri:0, instance:Capstone.ScrollDown_Page@ba54932]" started-at="2021-07-23T04:47:49Z" name="after_class" finished-at="2021-07-23T04:47:51Z" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_class -->
       </class> <!-- Capstone.ScrollDown_Page -->
       <class name="Capstone.Login_Home_Page">
-        <test-method signature="Login()[pri:1, instance:Capstone.Login_Home_Page@55740540]" started-at="2021-07-19T02:32:53Z" name="Login" finished-at="2021-07-19T02:32:53Z" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="Login1()[pri:1, instance:Capstone.Login_Home_Page@55740540]" started-at="2021-07-19T02:32:53Z" name="Login1" finished-at="2021-07-19T02:33:01Z" duration-ms="8104" status="PASS">
+        <test-method signature="Login1()[pri:1, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:29Z" name="Login1" finished-at="2021-07-23T04:47:39Z" duration-ms="10523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login1 -->
-        <test-method signature="HomePageVerifyTitle()[pri:2, instance:Capstone.Login_Home_Page@55740540]" started-at="2021-07-19T02:33:01Z" name="HomePageVerifyTitle" finished-at="2021-07-19T02:33:01Z" duration-ms="20" status="PASS">
+        <test-method signature="HomePageVerifyTitle()[pri:2, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:39Z" name="HomePageVerifyTitle" finished-at="2021-07-23T04:47:39Z" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageVerifyTitle -->
-        <test-method signature="HomePageVerifyLogo()[pri:3, instance:Capstone.Login_Home_Page@55740540]" started-at="2021-07-19T02:33:01Z" name="HomePageVerifyLogo" finished-at="2021-07-19T02:33:01Z" duration-ms="182" status="PASS">
+        <test-method signature="HomePageVerifyLogo()[pri:3, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:39Z" name="HomePageVerifyLogo" finished-at="2021-07-23T04:47:39Z" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageVerifyLogo -->
-        <test-method signature="HomePageDropDownsCount()[pri:4, instance:Capstone.Login_Home_Page@55740540]" started-at="2021-07-19T02:33:01Z" name="HomePageDropDownsCount" finished-at="2021-07-19T02:33:01Z" duration-ms="69" status="PASS">
+        <test-method signature="HomePageDropDownsCount()[pri:4, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:39Z" name="HomePageDropDownsCount" finished-at="2021-07-23T04:47:39Z" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageDropDownsCount -->
-        <test-method signature="HomePageDropDownsName()[pri:5, instance:Capstone.Login_Home_Page@55740540]" started-at="2021-07-19T02:33:01Z" name="HomePageDropDownsName" finished-at="2021-07-19T02:33:01Z" duration-ms="329" status="PASS">
+        <test-method signature="HomePageDropDownsName()[pri:5, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:39Z" name="HomePageDropDownsName" finished-at="2021-07-23T04:47:40Z" duration-ms="458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageDropDownsName -->
-        <test-method signature="VerifyVisitTagHomePagePresence()[pri:6, instance:Capstone.Login_Home_Page@55740540]" started-at="2021-07-19T02:33:01Z" name="VerifyVisitTagHomePagePresence" finished-at="2021-07-19T02:33:02Z" duration-ms="361" status="PASS">
+        <test-method signature="VerifyVisitTagHomePagePresence()[pri:6, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:40Z" name="VerifyVisitTagHomePagePresence" finished-at="2021-07-23T04:47:40Z" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyVisitTagHomePagePresence -->
-        <test-method signature="VerifyVisitTagHomePageName()[pri:7, instance:Capstone.Login_Home_Page@55740540]" started-at="2021-07-19T02:33:02Z" name="VerifyVisitTagHomePageName" finished-at="2021-07-19T02:33:02Z" duration-ms="79" status="PASS">
+        <test-method signature="VerifyVisitTagHomePageName()[pri:7, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:40Z" name="VerifyVisitTagHomePageName" finished-at="2021-07-23T04:47:40Z" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyVisitTagHomePageName -->
-        <test-method signature="VerifyMyLambtonHomePagePresence()[pri:8, instance:Capstone.Login_Home_Page@55740540]" started-at="2021-07-19T02:33:02Z" name="VerifyMyLambtonHomePagePresence" finished-at="2021-07-19T02:33:02Z" duration-ms="59" status="PASS">
+        <test-method signature="VerifyMyLambtonHomePagePresence()[pri:8, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:40Z" name="VerifyMyLambtonHomePagePresence" finished-at="2021-07-23T04:47:40Z" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMyLambtonHomePagePresence -->
-        <test-method signature="VerifyMyLambtonTagHomePageName()[pri:9, instance:Capstone.Login_Home_Page@55740540]" started-at="2021-07-19T02:33:02Z" name="VerifyMyLambtonTagHomePageName" finished-at="2021-07-19T02:33:02Z" duration-ms="45" status="PASS">
+        <test-method signature="VerifyMyLambtonTagHomePageName()[pri:9, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:40Z" name="VerifyMyLambtonTagHomePageName" finished-at="2021-07-23T04:47:40Z" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMyLambtonTagHomePageName -->
-        <test-method signature="VerifySearchBarHomePagePresence()[pri:10, instance:Capstone.Login_Home_Page@55740540]" started-at="2021-07-19T02:33:02Z" name="VerifySearchBarHomePagePresence" finished-at="2021-07-19T02:33:02Z" duration-ms="65" status="PASS">
+        <test-method signature="VerifySearchBarHomePagePresence()[pri:10, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:40Z" name="VerifySearchBarHomePagePresence" finished-at="2021-07-23T04:47:40Z" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySearchBarHomePagePresence -->
-        <test-method signature="VerifySearchButtonHomePagePresence()[pri:11, instance:Capstone.Login_Home_Page@55740540]" started-at="2021-07-19T02:33:02Z" name="VerifySearchButtonHomePagePresence" finished-at="2021-07-19T02:33:02Z" duration-ms="57" status="PASS">
+        <test-method signature="VerifySearchButtonHomePagePresence()[pri:11, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:40Z" name="VerifySearchButtonHomePagePresence" finished-at="2021-07-23T04:47:40Z" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySearchButtonHomePagePresence -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Capstone.Login_Home_Page@55740540]" started-at="2021-07-19T02:33:08Z" name="closebrowser" finished-at="2021-07-19T02:33:09Z" duration-ms="1252" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:48:17Z" name="closebrowser" finished-at="2021-07-23T04:48:17Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
       </class> <!-- Capstone.Login_Home_Page -->
       <class name="Capstone.DropDown_HomePage_Page">
-        <test-method signature="VerifyFutureStudentDropDownMenu()[pri:12, instance:Capstone.DropDown_HomePage_Page@60015ef5]" started-at="2021-07-19T02:33:02Z" name="VerifyFutureStudentDropDownMenu" finished-at="2021-07-19T02:33:03Z" duration-ms="822" status="PASS">
+        <test-method signature="VerifyFutureStudentDropDownMenu()[pri:12, instance:Capstone.DropDown_HomePage_Page@574b560f]" started-at="2021-07-23T04:47:40Z" name="VerifyFutureStudentDropDownMenu" finished-at="2021-07-23T04:47:41Z" duration-ms="754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyFutureStudentDropDownMenu -->
-        <test-method signature="VerifyAboutUsDropDownMenu()[pri:13, instance:Capstone.DropDown_HomePage_Page@60015ef5]" started-at="2021-07-19T02:33:03Z" name="VerifyAboutUsDropDownMenu" finished-at="2021-07-19T02:33:04Z" duration-ms="700" status="PASS">
+        <test-method signature="VerifyAboutUsDropDownMenu()[pri:13, instance:Capstone.DropDown_HomePage_Page@574b560f]" started-at="2021-07-23T04:47:41Z" name="VerifyAboutUsDropDownMenu" finished-at="2021-07-23T04:47:42Z" duration-ms="865" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAboutUsDropDownMenu -->
-        <test-method signature="VerifyProgramsDownMenu()[pri:14, instance:Capstone.DropDown_HomePage_Page@60015ef5]" started-at="2021-07-19T02:33:04Z" name="VerifyProgramsDownMenu" finished-at="2021-07-19T02:33:04Z" duration-ms="569" status="PASS">
+        <test-method signature="VerifyProgramsDownMenu()[pri:14, instance:Capstone.DropDown_HomePage_Page@574b560f]" started-at="2021-07-23T04:47:42Z" name="VerifyProgramsDownMenu" finished-at="2021-07-23T04:47:43Z" duration-ms="537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyProgramsDownMenu -->
-        <test-method signature="VerifyAllServicesDownMenu()[pri:15, instance:Capstone.DropDown_HomePage_Page@60015ef5]" started-at="2021-07-19T02:33:04Z" name="VerifyAllServicesDownMenu" finished-at="2021-07-19T02:33:05Z" duration-ms="1129" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at Capstone.DropDown_HomePage_Page.VerifyAllServicesDownMenu(DropDown_HomePage_Page.java:48)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="VerifyAllServicesDownMenu()[pri:15, instance:Capstone.DropDown_HomePage_Page@574b560f]" started-at="2021-07-23T04:47:43Z" name="VerifyAllServicesDownMenu" finished-at="2021-07-23T04:47:44Z" duration-ms="1833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAllServicesDownMenu -->
-        <test-method signature="VerifyAddmissionsDownMenu()[pri:16, instance:Capstone.DropDown_HomePage_Page@60015ef5]" started-at="2021-07-19T02:33:05Z" name="VerifyAddmissionsDownMenu" finished-at="2021-07-19T02:33:06Z" duration-ms="474" status="PASS">
+        <test-method signature="VerifyAddmissionsDownMenu()[pri:16, instance:Capstone.DropDown_HomePage_Page@574b560f]" started-at="2021-07-23T04:47:44Z" name="VerifyAddmissionsDownMenu" finished-at="2021-07-23T04:47:45Z" duration-ms="678" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAddmissionsDownMenu -->
-        <test-method signature="VerifyContactsDownMenu()[pri:17, instance:Capstone.DropDown_HomePage_Page@60015ef5]" started-at="2021-07-19T02:33:06Z" name="VerifyContactsDownMenu" finished-at="2021-07-19T02:33:06Z" duration-ms="498" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at Capstone.DropDown_HomePage_Page.VerifyContactsDownMenu(DropDown_HomePage_Page.java:61)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="VerifyContactsDownMenu()[pri:17, instance:Capstone.DropDown_HomePage_Page@574b560f]" started-at="2021-07-23T04:47:45Z" name="VerifyContactsDownMenu" finished-at="2021-07-23T04:47:46Z" duration-ms="621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyContactsDownMenu -->
       </class> <!-- Capstone.DropDown_HomePage_Page -->
+      <class name="Capstone.Open_Pages_page">
+        <test-method signature="open_tag_full_time()[pri:25, instance:Capstone.Open_Pages_page@28975c28]" started-at="2021-07-23T04:47:51Z" name="open_tag_full_time" finished-at="2021-07-23T04:47:55Z" duration-ms="3952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tag_full_time -->
+        <test-method signature="open_tag_online()[pri:26, instance:Capstone.Open_Pages_page@28975c28]" started-at="2021-07-23T04:47:55Z" name="open_tag_online" finished-at="2021-07-23T04:47:58Z" duration-ms="3523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tag_online -->
+        <test-method signature="open_tag_applicants()[pri:27, instance:Capstone.Open_Pages_page@28975c28]" started-at="2021-07-23T04:47:58Z" name="open_tag_applicants" finished-at="2021-07-23T04:48:01Z" duration-ms="3214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tag_applicants -->
+        <test-method signature="open_tags_international()[pri:28, instance:Capstone.Open_Pages_page@28975c28]" started-at="2021-07-23T04:48:01Z" name="open_tags_international" finished-at="2021-07-23T04:48:05Z" duration-ms="3411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tags_international -->
+        <test-method signature="open_tags_Parents_Caregivers()[pri:29, instance:Capstone.Open_Pages_page@28975c28]" started-at="2021-07-23T04:48:05Z" name="open_tags_Parents_Caregivers" finished-at="2021-07-23T04:48:08Z" duration-ms="3082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tags_Parents_Caregivers -->
+        <test-method signature="open_tags_Educators_Counsellors()[pri:30, instance:Capstone.Open_Pages_page@28975c28]" started-at="2021-07-23T04:48:08Z" name="open_tags_Educators_Counsellors" finished-at="2021-07-23T04:48:10Z" duration-ms="2498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tags_Educators_Counsellors -->
+        <test-method signature="open_tags_School_College_Work_Initiative()[pri:31, instance:Capstone.Open_Pages_page@28975c28]" started-at="2021-07-23T04:48:10Z" name="open_tags_School_College_Work_Initiative" finished-at="2021-07-23T04:48:14Z" duration-ms="3902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tags_School_College_Work_Initiative -->
+        <test-method signature="open_tags_Second_Career()[pri:32, instance:Capstone.Open_Pages_page@28975c28]" started-at="2021-07-23T04:48:14Z" name="open_tags_Second_Career" finished-at="2021-07-23T04:48:17Z" duration-ms="2294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tags_Second_Career -->
+      </class> <!-- Capstone.Open_Pages_page -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

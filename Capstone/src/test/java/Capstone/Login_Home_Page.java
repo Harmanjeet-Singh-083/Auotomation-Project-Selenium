@@ -16,14 +16,7 @@ import Base.BaseHelper;
 
 public class Login_Home_Page extends Login_Home{
 
-	@Test(priority = 1)
-	public void Login() throws Exception
-	{		
-		
-	System.out.println("Start");
 	
-	
-	}
 	
 	
 	@Test(priority = 1)
@@ -133,7 +126,7 @@ public class Login_Home_Page extends Login_Home{
 	
 	@AfterSuite
 	public void closebrowser() {
-		
+		System.out.println("all tests done");
 		driver.close();
 	}
 	
