@@ -2,9 +2,14 @@ package Base;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import Config.ReadPropertyFile;
 
@@ -74,7 +79,24 @@ public class BaseHelper extends ReadPropertyFile {
 		driver.findElement( by).click();
  	 }
 
- 	 
+public void verify_page(String DropDown,By WebElements,By xpath,String url) throws Exception {
+		
+		WebElement a=driver.findElement(By.xpath(DropDown));
+		
+		//Mouse Over Action performing on the dropdown menu
+				Actions aa= new Actions (driver);
+				aa.moveToElement(a).build().perform();
+				
+				
+				WebDriverWait wait = new WebDriverWait(driver,30);
+				wait.until(ExpectedConditions.visibilityOfElementLocated(WebElements));
+				driver.findElement(xpath).click();
+				String Url= driver.getCurrentUrl();
+				Assert.assertEquals(Url, url);
+				driver.navigate().back();
+				
+				
+				}
  	 
  	 
 }

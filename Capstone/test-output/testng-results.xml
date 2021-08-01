@@ -1,155 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="32" passed="32" failed="0" skipped="0">
+<testng-results ignored="0" total="42" passed="42" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-23T04:47:29Z" name="Suite" finished-at="2021-07-23T04:48:17Z" duration-ms="47951">
+  <suite started-at="2021-08-01T18:25:15Z" name="Suite" finished-at="2021-08-01T18:26:21Z" duration-ms="66206">
     <groups>
     </groups>
-    <test started-at="2021-07-23T04:47:29Z" name="Test" finished-at="2021-07-23T04:48:17Z" duration-ms="47951">
+    <test started-at="2021-08-01T18:25:15Z" name="Test" finished-at="2021-08-01T18:26:21Z" duration-ms="66206">
       <class name="Capstone.ScrollDown_Page">
-        <test-method signature="scroll()[pri:18, instance:Capstone.ScrollDown_Page@ba54932]" started-at="2021-07-23T04:47:46Z" name="scroll" finished-at="2021-07-23T04:47:46Z" duration-ms="111" status="PASS">
+        <test-method signature="scroll()[pri:18, instance:Capstone.ScrollDown_Page@36d585c]" started-at="2021-08-01T18:25:27Z" name="scroll" finished-at="2021-08-01T18:25:28Z" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scroll -->
-        <test-method signature="All_Program()[pri:19, instance:Capstone.ScrollDown_Page@ba54932]" started-at="2021-07-23T04:47:46Z" name="All_Program" finished-at="2021-07-23T04:47:46Z" duration-ms="58" status="PASS">
+        <test-method signature="All_Program()[pri:19, instance:Capstone.ScrollDown_Page@36d585c]" started-at="2021-08-01T18:25:28Z" name="All_Program" finished-at="2021-08-01T18:25:28Z" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- All_Program -->
-        <test-method signature="Program_categories()[pri:20, instance:Capstone.ScrollDown_Page@ba54932]" started-at="2021-07-23T04:47:46Z" name="Program_categories" finished-at="2021-07-23T04:47:46Z" duration-ms="68" status="PASS">
+        <test-method signature="Program_categories()[pri:20, instance:Capstone.ScrollDown_Page@36d585c]" started-at="2021-08-01T18:25:28Z" name="Program_categories" finished-at="2021-08-01T18:25:28Z" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Program_categories -->
-        <test-method signature="Program_categories_click()[pri:21, instance:Capstone.ScrollDown_Page@ba54932]" started-at="2021-07-23T04:47:46Z" name="Program_categories_click" finished-at="2021-07-23T04:47:46Z" duration-ms="190" status="PASS">
+        <test-method signature="Program_categories_click()[pri:21, instance:Capstone.ScrollDown_Page@36d585c]" started-at="2021-08-01T18:25:28Z" name="Program_categories_click" finished-at="2021-08-01T18:25:28Z" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Program_categories_click -->
-        <test-method signature="Program_categories_elements()[pri:22, instance:Capstone.ScrollDown_Page@ba54932]" started-at="2021-07-23T04:47:46Z" name="Program_categories_elements" finished-at="2021-07-23T04:47:47Z" duration-ms="972" status="PASS">
+        <test-method signature="Program_categories_elements()[pri:22, instance:Capstone.ScrollDown_Page@36d585c]" started-at="2021-08-01T18:25:28Z" name="Program_categories_elements" finished-at="2021-08-01T18:25:29Z" duration-ms="754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Program_categories_elements -->
-        <test-method signature="Area_Of_interest_elements()[pri:23, instance:Capstone.ScrollDown_Page@ba54932]" started-at="2021-07-23T04:47:47Z" name="Area_Of_interest_elements" finished-at="2021-07-23T04:47:48Z" duration-ms="603" status="PASS">
+        <test-method signature="Area_Of_interest_elements()[pri:23, instance:Capstone.ScrollDown_Page@36d585c]" started-at="2021-08-01T18:25:29Z" name="Area_Of_interest_elements" finished-at="2021-08-01T18:25:29Z" duration-ms="537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Area_Of_interest_elements -->
-        <test-method signature="Type_in_search_Box()[pri:24, instance:Capstone.ScrollDown_Page@ba54932]" started-at="2021-07-23T04:47:48Z" name="Type_in_search_Box" finished-at="2021-07-23T04:47:49Z" duration-ms="1498" status="PASS">
+        <test-method signature="Type_in_search_Box()[pri:24, instance:Capstone.ScrollDown_Page@36d585c]" started-at="2021-08-01T18:25:29Z" name="Type_in_search_Box" finished-at="2021-08-01T18:25:30Z" duration-ms="1344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Type_in_search_Box -->
-        <test-method is-config="true" signature="after_class()[pri:0, instance:Capstone.ScrollDown_Page@ba54932]" started-at="2021-07-23T04:47:49Z" name="after_class" finished-at="2021-07-23T04:47:51Z" duration-ms="1504" status="PASS">
+        <test-method is-config="true" signature="after_class()[pri:0, instance:Capstone.ScrollDown_Page@36d585c]" started-at="2021-08-01T18:25:30Z" name="after_class" finished-at="2021-08-01T18:25:32Z" duration-ms="1058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_class -->
       </class> <!-- Capstone.ScrollDown_Page -->
       <class name="Capstone.Login_Home_Page">
-        <test-method signature="Login1()[pri:1, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:29Z" name="Login1" finished-at="2021-07-23T04:47:39Z" duration-ms="10523" status="PASS">
+        <test-method signature="Login1()[pri:1, instance:Capstone.Login_Home_Page@5f16132a]" started-at="2021-08-01T18:25:15Z" name="Login1" finished-at="2021-08-01T18:25:22Z" duration-ms="7057" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login1 -->
-        <test-method signature="HomePageVerifyTitle()[pri:2, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:39Z" name="HomePageVerifyTitle" finished-at="2021-07-23T04:47:39Z" duration-ms="76" status="PASS">
+        <test-method signature="HomePageVerifyTitle()[pri:2, instance:Capstone.Login_Home_Page@5f16132a]" started-at="2021-08-01T18:25:22Z" name="HomePageVerifyTitle" finished-at="2021-08-01T18:25:22Z" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageVerifyTitle -->
-        <test-method signature="HomePageVerifyLogo()[pri:3, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:39Z" name="HomePageVerifyLogo" finished-at="2021-07-23T04:47:39Z" duration-ms="104" status="PASS">
+        <test-method signature="HomePageVerifyLogo()[pri:3, instance:Capstone.Login_Home_Page@5f16132a]" started-at="2021-08-01T18:25:22Z" name="HomePageVerifyLogo" finished-at="2021-08-01T18:25:23Z" duration-ms="580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageVerifyLogo -->
-        <test-method signature="HomePageDropDownsCount()[pri:4, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:39Z" name="HomePageDropDownsCount" finished-at="2021-07-23T04:47:39Z" duration-ms="34" status="PASS">
+        <test-method signature="HomePageDropDownsCount()[pri:4, instance:Capstone.Login_Home_Page@5f16132a]" started-at="2021-08-01T18:25:23Z" name="HomePageDropDownsCount" finished-at="2021-08-01T18:25:23Z" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageDropDownsCount -->
-        <test-method signature="HomePageDropDownsName()[pri:5, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:39Z" name="HomePageDropDownsName" finished-at="2021-07-23T04:47:40Z" duration-ms="458" status="PASS">
+        <test-method signature="HomePageDropDownsName()[pri:5, instance:Capstone.Login_Home_Page@5f16132a]" started-at="2021-08-01T18:25:23Z" name="HomePageDropDownsName" finished-at="2021-08-01T18:25:23Z" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageDropDownsName -->
-        <test-method signature="VerifyVisitTagHomePagePresence()[pri:6, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:40Z" name="VerifyVisitTagHomePagePresence" finished-at="2021-07-23T04:47:40Z" duration-ms="76" status="PASS">
+        <test-method signature="VerifyVisitTagHomePagePresence()[pri:6, instance:Capstone.Login_Home_Page@5f16132a]" started-at="2021-08-01T18:25:23Z" name="VerifyVisitTagHomePagePresence" finished-at="2021-08-01T18:25:23Z" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyVisitTagHomePagePresence -->
-        <test-method signature="VerifyVisitTagHomePageName()[pri:7, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:40Z" name="VerifyVisitTagHomePageName" finished-at="2021-07-23T04:47:40Z" duration-ms="86" status="PASS">
+        <test-method signature="VerifyVisitTagHomePageName()[pri:7, instance:Capstone.Login_Home_Page@5f16132a]" started-at="2021-08-01T18:25:23Z" name="VerifyVisitTagHomePageName" finished-at="2021-08-01T18:25:23Z" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyVisitTagHomePageName -->
-        <test-method signature="VerifyMyLambtonHomePagePresence()[pri:8, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:40Z" name="VerifyMyLambtonHomePagePresence" finished-at="2021-07-23T04:47:40Z" duration-ms="61" status="PASS">
+        <test-method signature="VerifyMyLambtonHomePagePresence()[pri:8, instance:Capstone.Login_Home_Page@5f16132a]" started-at="2021-08-01T18:25:23Z" name="VerifyMyLambtonHomePagePresence" finished-at="2021-08-01T18:25:23Z" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMyLambtonHomePagePresence -->
-        <test-method signature="VerifyMyLambtonTagHomePageName()[pri:9, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:40Z" name="VerifyMyLambtonTagHomePageName" finished-at="2021-07-23T04:47:40Z" duration-ms="81" status="PASS">
+        <test-method signature="VerifyMyLambtonTagHomePageName()[pri:9, instance:Capstone.Login_Home_Page@5f16132a]" started-at="2021-08-01T18:25:23Z" name="VerifyMyLambtonTagHomePageName" finished-at="2021-08-01T18:25:23Z" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMyLambtonTagHomePageName -->
-        <test-method signature="VerifySearchBarHomePagePresence()[pri:10, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:40Z" name="VerifySearchBarHomePagePresence" finished-at="2021-07-23T04:47:40Z" duration-ms="62" status="PASS">
+        <test-method signature="VerifySearchBarHomePagePresence()[pri:10, instance:Capstone.Login_Home_Page@5f16132a]" started-at="2021-08-01T18:25:23Z" name="VerifySearchBarHomePagePresence" finished-at="2021-08-01T18:25:23Z" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySearchBarHomePagePresence -->
-        <test-method signature="VerifySearchButtonHomePagePresence()[pri:11, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:47:40Z" name="VerifySearchButtonHomePagePresence" finished-at="2021-07-23T04:47:40Z" duration-ms="66" status="PASS">
+        <test-method signature="VerifySearchButtonHomePagePresence()[pri:11, instance:Capstone.Login_Home_Page@5f16132a]" started-at="2021-08-01T18:25:23Z" name="VerifySearchButtonHomePagePresence" finished-at="2021-08-01T18:25:24Z" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySearchButtonHomePagePresence -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Capstone.Login_Home_Page@36b4fe2a]" started-at="2021-07-23T04:48:17Z" name="closebrowser" finished-at="2021-07-23T04:48:17Z" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Capstone.Login_Home_Page@5f16132a]" started-at="2021-08-01T18:26:22Z" name="closebrowser" finished-at="2021-08-01T18:26:22Z" duration-ms="360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
       </class> <!-- Capstone.Login_Home_Page -->
       <class name="Capstone.DropDown_HomePage_Page">
-        <test-method signature="VerifyFutureStudentDropDownMenu()[pri:12, instance:Capstone.DropDown_HomePage_Page@574b560f]" started-at="2021-07-23T04:47:40Z" name="VerifyFutureStudentDropDownMenu" finished-at="2021-07-23T04:47:41Z" duration-ms="754" status="PASS">
+        <test-method signature="VerifyFutureStudentDropDownMenu()[pri:12, instance:Capstone.DropDown_HomePage_Page@69fb6037]" started-at="2021-08-01T18:25:24Z" name="VerifyFutureStudentDropDownMenu" finished-at="2021-08-01T18:25:24Z" duration-ms="758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyFutureStudentDropDownMenu -->
-        <test-method signature="VerifyAboutUsDropDownMenu()[pri:13, instance:Capstone.DropDown_HomePage_Page@574b560f]" started-at="2021-07-23T04:47:41Z" name="VerifyAboutUsDropDownMenu" finished-at="2021-07-23T04:47:42Z" duration-ms="865" status="PASS">
+        <test-method signature="VerifyAboutUsDropDownMenu()[pri:13, instance:Capstone.DropDown_HomePage_Page@69fb6037]" started-at="2021-08-01T18:25:24Z" name="VerifyAboutUsDropDownMenu" finished-at="2021-08-01T18:25:25Z" duration-ms="677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAboutUsDropDownMenu -->
-        <test-method signature="VerifyProgramsDownMenu()[pri:14, instance:Capstone.DropDown_HomePage_Page@574b560f]" started-at="2021-07-23T04:47:42Z" name="VerifyProgramsDownMenu" finished-at="2021-07-23T04:47:43Z" duration-ms="537" status="PASS">
+        <test-method signature="VerifyProgramsDownMenu()[pri:14, instance:Capstone.DropDown_HomePage_Page@69fb6037]" started-at="2021-08-01T18:25:25Z" name="VerifyProgramsDownMenu" finished-at="2021-08-01T18:25:25Z" duration-ms="459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyProgramsDownMenu -->
-        <test-method signature="VerifyAllServicesDownMenu()[pri:15, instance:Capstone.DropDown_HomePage_Page@574b560f]" started-at="2021-07-23T04:47:43Z" name="VerifyAllServicesDownMenu" finished-at="2021-07-23T04:47:44Z" duration-ms="1833" status="PASS">
+        <test-method signature="VerifyAllServicesDownMenu()[pri:15, instance:Capstone.DropDown_HomePage_Page@69fb6037]" started-at="2021-08-01T18:25:25Z" name="VerifyAllServicesDownMenu" finished-at="2021-08-01T18:25:26Z" duration-ms="1064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAllServicesDownMenu -->
-        <test-method signature="VerifyAddmissionsDownMenu()[pri:16, instance:Capstone.DropDown_HomePage_Page@574b560f]" started-at="2021-07-23T04:47:44Z" name="VerifyAddmissionsDownMenu" finished-at="2021-07-23T04:47:45Z" duration-ms="678" status="PASS">
+        <test-method signature="VerifyAddmissionsDownMenu()[pri:16, instance:Capstone.DropDown_HomePage_Page@69fb6037]" started-at="2021-08-01T18:25:26Z" name="VerifyAddmissionsDownMenu" finished-at="2021-08-01T18:25:27Z" duration-ms="487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAddmissionsDownMenu -->
-        <test-method signature="VerifyContactsDownMenu()[pri:17, instance:Capstone.DropDown_HomePage_Page@574b560f]" started-at="2021-07-23T04:47:45Z" name="VerifyContactsDownMenu" finished-at="2021-07-23T04:47:46Z" duration-ms="621" status="PASS">
+        <test-method signature="VerifyContactsDownMenu()[pri:17, instance:Capstone.DropDown_HomePage_Page@69fb6037]" started-at="2021-08-01T18:25:27Z" name="VerifyContactsDownMenu" finished-at="2021-08-01T18:25:27Z" duration-ms="470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyContactsDownMenu -->
       </class> <!-- Capstone.DropDown_HomePage_Page -->
       <class name="Capstone.Open_Pages_page">
-        <test-method signature="open_tag_full_time()[pri:25, instance:Capstone.Open_Pages_page@28975c28]" started-at="2021-07-23T04:47:51Z" name="open_tag_full_time" finished-at="2021-07-23T04:47:55Z" duration-ms="3952" status="PASS">
+        <test-method signature="open_tag_full_time()[pri:25, instance:Capstone.Open_Pages_page@87a85e1]" started-at="2021-08-01T18:25:32Z" name="open_tag_full_time" finished-at="2021-08-01T18:25:34Z" duration-ms="2755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_tag_full_time -->
-        <test-method signature="open_tag_online()[pri:26, instance:Capstone.Open_Pages_page@28975c28]" started-at="2021-07-23T04:47:55Z" name="open_tag_online" finished-at="2021-07-23T04:47:58Z" duration-ms="3523" status="PASS">
+        <test-method signature="open_tag_online()[pri:26, instance:Capstone.Open_Pages_page@87a85e1]" started-at="2021-08-01T18:25:34Z" name="open_tag_online" finished-at="2021-08-01T18:25:37Z" duration-ms="3062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_tag_online -->
-        <test-method signature="open_tag_applicants()[pri:27, instance:Capstone.Open_Pages_page@28975c28]" started-at="2021-07-23T04:47:58Z" name="open_tag_applicants" finished-at="2021-07-23T04:48:01Z" duration-ms="3214" status="PASS">
+        <test-method signature="open_tag_applicants()[pri:27, instance:Capstone.Open_Pages_page@87a85e1]" started-at="2021-08-01T18:25:37Z" name="open_tag_applicants" finished-at="2021-08-01T18:25:41Z" duration-ms="3167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_tag_applicants -->
-        <test-method signature="open_tags_international()[pri:28, instance:Capstone.Open_Pages_page@28975c28]" started-at="2021-07-23T04:48:01Z" name="open_tags_international" finished-at="2021-07-23T04:48:05Z" duration-ms="3411" status="PASS">
+        <test-method signature="open_tags_international()[pri:28, instance:Capstone.Open_Pages_page@87a85e1]" started-at="2021-08-01T18:25:41Z" name="open_tags_international" finished-at="2021-08-01T18:25:43Z" duration-ms="2417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_tags_international -->
-        <test-method signature="open_tags_Parents_Caregivers()[pri:29, instance:Capstone.Open_Pages_page@28975c28]" started-at="2021-07-23T04:48:05Z" name="open_tags_Parents_Caregivers" finished-at="2021-07-23T04:48:08Z" duration-ms="3082" status="PASS">
+        <test-method signature="open_tags_Parents_Caregivers()[pri:29, instance:Capstone.Open_Pages_page@87a85e1]" started-at="2021-08-01T18:25:43Z" name="open_tags_Parents_Caregivers" finished-at="2021-08-01T18:25:46Z" duration-ms="3470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_tags_Parents_Caregivers -->
-        <test-method signature="open_tags_Educators_Counsellors()[pri:30, instance:Capstone.Open_Pages_page@28975c28]" started-at="2021-07-23T04:48:08Z" name="open_tags_Educators_Counsellors" finished-at="2021-07-23T04:48:10Z" duration-ms="2498" status="PASS">
+        <test-method signature="open_tags_Educators_Counsellors()[pri:30, instance:Capstone.Open_Pages_page@87a85e1]" started-at="2021-08-01T18:25:46Z" name="open_tags_Educators_Counsellors" finished-at="2021-08-01T18:25:49Z" duration-ms="2391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_tags_Educators_Counsellors -->
-        <test-method signature="open_tags_School_College_Work_Initiative()[pri:31, instance:Capstone.Open_Pages_page@28975c28]" started-at="2021-07-23T04:48:10Z" name="open_tags_School_College_Work_Initiative" finished-at="2021-07-23T04:48:14Z" duration-ms="3902" status="PASS">
+        <test-method signature="open_tags_School_College_Work_Initiative()[pri:31, instance:Capstone.Open_Pages_page@87a85e1]" started-at="2021-08-01T18:25:49Z" name="open_tags_School_College_Work_Initiative" finished-at="2021-08-01T18:25:51Z" duration-ms="2491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_tags_School_College_Work_Initiative -->
-        <test-method signature="open_tags_Second_Career()[pri:32, instance:Capstone.Open_Pages_page@28975c28]" started-at="2021-07-23T04:48:14Z" name="open_tags_Second_Career" finished-at="2021-07-23T04:48:17Z" duration-ms="2294" status="PASS">
+        <test-method signature="open_tags_Second_Career()[pri:32, instance:Capstone.Open_Pages_page@87a85e1]" started-at="2021-08-01T18:25:51Z" name="open_tags_Second_Career" finished-at="2021-08-01T18:25:54Z" duration-ms="2497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_tags_Second_Career -->
       </class> <!-- Capstone.Open_Pages_page -->
+      <class name="Capstone.Open_page_Aboutus_page">
+        <test-method signature="open_tags_Alumni_Association()[pri:33, instance:Capstone.Open_page_Aboutus_page@671a5887]" started-at="2021-08-01T18:25:54Z" name="open_tags_Alumni_Association" finished-at="2021-08-01T18:25:58Z" duration-ms="4251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tags_Alumni_Association -->
+        <test-method signature="open_tags_Research_Innovation()[pri:34, instance:Capstone.Open_page_Aboutus_page@671a5887]" started-at="2021-08-01T18:25:58Z" name="open_tags_Research_Innovation" finished-at="2021-08-01T18:26:00Z" duration-ms="2281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tags_Research_Innovation -->
+        <test-method signature="open_tags_Centres_Labs()[pri:35, instance:Capstone.Open_page_Aboutus_page@671a5887]" started-at="2021-08-01T18:26:00Z" name="open_tags_Centres_Labs" finished-at="2021-08-01T18:26:03Z" duration-ms="2401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tags_Centres_Labs -->
+        <test-method signature="open_tags_Employment_Lambton()[pri:36, instance:Capstone.Open_page_Aboutus_page@671a5887]" started-at="2021-08-01T18:26:03Z" name="open_tags_Employment_Lambton" finished-at="2021-08-01T18:26:05Z" duration-ms="2443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tags_Employment_Lambton -->
+        <test-method signature="open_tags_Events()[pri:37, instance:Capstone.Open_page_Aboutus_page@671a5887]" started-at="2021-08-01T18:26:05Z" name="open_tags_Events" finished-at="2021-08-01T18:26:09Z" duration-ms="4279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tags_Events -->
+        <test-method signature="open_tags_Foundation()[pri:38, instance:Capstone.Open_page_Aboutus_page@671a5887]" started-at="2021-08-01T18:26:09Z" name="open_tags_Foundation" finished-at="2021-08-01T18:26:11Z" duration-ms="1995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tags_Foundation -->
+        <test-method signature="open_tags_Media()[pri:39, instance:Capstone.Open_page_Aboutus_page@671a5887]" started-at="2021-08-01T18:26:11Z" name="open_tags_Media" finished-at="2021-08-01T18:26:14Z" duration-ms="2255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tags_Media -->
+        <test-method signature="open_tags_Our_College()[pri:40, instance:Capstone.Open_page_Aboutus_page@671a5887]" started-at="2021-08-01T18:26:14Z" name="open_tags_Our_College" finished-at="2021-08-01T18:26:16Z" duration-ms="2283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tags_Our_College -->
+        <test-method signature="open_tags_Our_Board()[pri:41, instance:Capstone.Open_page_Aboutus_page@671a5887]" started-at="2021-08-01T18:26:16Z" name="open_tags_Our_Board" finished-at="2021-08-01T18:26:19Z" duration-ms="3079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tags_Our_Board -->
+        <test-method signature="open_tags_Our_Brand()[pri:42, instance:Capstone.Open_page_Aboutus_page@671a5887]" started-at="2021-08-01T18:26:19Z" name="open_tags_Our_Brand" finished-at="2021-08-01T18:26:21Z" duration-ms="2302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_tags_Our_Brand -->
+      </class> <!-- Capstone.Open_page_Aboutus_page -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -10,6 +10,9 @@
       <class name="Capstone.DropDown_HomePage_Page"/>
       <class name="Capstone.ScrollDown_Page"/>
       <class name="Capstone.Open_Pages_page"/>
+      <class name="Capstone.Open_page_Aboutus_page"/>
+      
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
